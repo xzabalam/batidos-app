@@ -1,0 +1,37 @@
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <artifactId>batidos</artifactId>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>23</source>
+          <target>23</target>
+        </configuration>
+        <groupId>org.apache.maven.plugins</groupId>
+        <version>3.11.0</version>
+      </plugin>
+    </plugins>
+  </build>
+  <dependencies>
+    <dependency>
+      <artifactId>junit</artifactId>
+      <groupId>junit</groupId>
+      <scope>test</scope>
+      <version>3.8.1</version>
+    </dependency>
+  </dependencies>
+  <groupId>ec.gob.batidos</groupId>
+  <modelVersion>4.0.0</modelVersion>
+  <name>batidos</name>
+  <packaging>jar</packaging>
+  <properties>
+    <java.version>23</java.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <url>http://maven.apache.org</url>
+  <version>1.0.0-SNAPSHOT</version>
+</project>
+
